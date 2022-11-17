@@ -30,6 +30,10 @@ body {
 .site-nav .nav:focus {
   color: #2196f3;
 }
+.site-nav .current {
+  color: #2196f3;
+}
+
 .contacts-list {
   font-weight: 500;
   font-size: 14px;
