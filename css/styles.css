@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Arial", Roboto;
+  font-family: "Roboto", sans-serif;
 }
 .logo {
   color: #000000;
@@ -45,10 +45,10 @@ body {
 .contacts .contacts-list:focus {
   color: #2196f3;
 }
-.advertisement {
+.slogan {
   background-color: #2f303a;
 }
-.advertisement-1 {
+.slogan-1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -70,6 +70,21 @@ body {
   color: #ffffff;
   background-color: #2196f3;
 }
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+}
 
 .anventages-list {
   font-weight: 700;
@@ -86,7 +101,6 @@ body {
   color: #757575;
 }
 .title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -101,9 +115,21 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.works {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
 .position {
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.projects {
+  font-size: 16px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -112,7 +138,6 @@ body {
 }
 .logo-2 {
   font-family: "Raleway";
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
